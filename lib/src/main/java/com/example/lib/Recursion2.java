@@ -19,7 +19,7 @@ public class Recursion2 {
      * groupSum(0, [2, 4, 8], 14) â†’ true
      * groupSum(0, [2, 4, 8], 9) â†’ false
      */
-    
+
     static boolean groupSum(int start, int[] nums, int target) {
 
         if (start >= nums.length)
